@@ -14,3 +14,4 @@ class Config:
             DB_NAME=env("DATABASE_NAME"),
         ),
     )
+    JWT_PRIVATE_KEY = env("JWT_PRIVATE_KEY")

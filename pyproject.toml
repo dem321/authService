@@ -12,6 +12,8 @@ uvicorn = "^0.30.3"
 pydantic = "^2.8.2"
 sqlalchemy = "^2.0.31"
 environs = "^11.0.0"
+pyjwt = {extras = ["crypto"], version = "^2.9.0"}
+bcrypt = "^4.2.0"
 
 
 [build-system]
